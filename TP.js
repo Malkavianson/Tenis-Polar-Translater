@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 function codificador(){
-	const frase = prompt("Frase para ser codificada: ")
+	const frase = prompt("Frase para ser codificada: ");
 
 	let t = ["t","e","n","i","s","p","o","l","a","r"];
 	let p = ["p","o","l","a","r","t","e","n","i","s"];
@@ -14,16 +14,16 @@ function codificador(){
 			}
 		}
 		if (fraseCripto.length != f+1){
-			fraseCripto += frase[f]
+			fraseCripto += frase[f];
 		}
 	}
 	console.log(`Frase codificada: ${fraseCripto}`);
 	console.log(" ");
-	const q = prompt("deseia fechar o programa? [s] ou [n] ")
+	const q = prompt("deseia fechar o programa? [s] ou [n] ");
 	if(q === "n") { 
 		console.clear();
-		codificador() 
+		codificador();
 	}
 }
 
-codificador()
+codificador();
