@@ -1,0 +1,19 @@
+{
+  "name": "codificador-tenis-polar-",
+  "version": "0.0.1",
+  "description": "\"Decodificador da criptografia TENIS-POLAR\"",
+  "main": "tp.bat",
+  "scripts": {
+    "test": "cmd.exe /c tp.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malkavianson/Codificador-Tenis-Polar.git"
+  },
+  "author": "@MalkavianSon e @Santos95Mat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malkavianson/Codificador-Tenis-Polar/issues"
+  },
+  "homepage": "https://github.com/Malkavianson/Codificador-Tenis-Polar#readme"
+}
